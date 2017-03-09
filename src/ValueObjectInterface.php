@@ -9,11 +9,11 @@ interface ValueObjectInterface
      * @param ValueObjectInterface $compare
      * @return boolean
      */
-    public function isEqualTo(ValueObjectInterface $compare);
+    public function isEqualTo(ValueObjectInterface $compare): bool ;
 
     /**
      * Return string representation of value
      * @return string
      */
-    public function __toString();
+    public function __toString(): string;
 }
