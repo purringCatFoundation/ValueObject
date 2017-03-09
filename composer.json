@@ -1,0 +1,27 @@
+{
+  "name": "purring_cat/valueobject",
+  "description": "todo",
+  "type": "metaapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bernard",
+      "email": "b.vanderesch@gmail.com"
+    },
+    {
+      "name": "Paweł",
+      "email": "paw.radzikowski@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PCF\\ValueObject\\": "src/",
+      "PCF\\ValueObjectTest\\": "test/"
+    }
+  }
+}
