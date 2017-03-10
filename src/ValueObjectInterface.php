@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace PCF\ValueObject;
 
 interface ValueObjectInterface
