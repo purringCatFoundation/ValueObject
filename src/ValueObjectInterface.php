@@ -12,7 +12,7 @@ interface ValueObjectInterface
      *
      * @return boolean
      */
-    public function isEqualTo(ValueObjectInterface $compare): bool ;
+    public function isEqualTo(ValueObjectInterface $compare): bool;
 
     /**
      * Return string representation of value
