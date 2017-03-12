@@ -45,17 +45,11 @@ local.properties
 # Locally stored "Eclipse launch configurations"
 *.launch
 
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
-
 # CDT-specific (C/C++ Development Tooling)
 .cproject
 
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-
-# Java annotation processor (APT)
-.factorypath
 
 # PDT-specific (PHP Development Tools)
 .buildpath
@@ -69,14 +63,5 @@ local.properties
 # TeXlipse plugin
 .texlipse
 
-# STS (Spring Tool Suite)
-.springBeans
-
 # Code Recommenders
 .recommenders/
-
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
-
