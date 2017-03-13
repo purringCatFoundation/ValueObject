@@ -12,7 +12,7 @@
 >
     <testsuites>
         <testsuite name="ValueObject testsuite">
-            <directory>./tests/</directory>
+            <directory>./test/</directory>
         </testsuite>
     </testsuites>
     <filter>
