@@ -27,7 +27,7 @@ class Converter
      * @uses meterToFeet
      * @uses feetToMeter
      */
-    public static function convert(AbstractDistance $obj, $expectedClass)
+    public static function convert(AbstractDistance $obj, $expectedClass): AbstractDistance
     {
         if (empty(self::$rules[$obj->getUnit()]) || false === is_array(self::$rules[$obj->getUnit()])) {
             throw new \InvalidArgumentException('there is no conversion ruleset for input object');
@@ -43,12 +43,20 @@ class Converter
         return new $expectedClass($newQuality);
     }
 
-    private static function meterToFeet($meters)
+    /**
+     * @param $meters
+     * @return float
+     */
+    private static function meterToFeet($meters): float
     {
         return $meters * 3.2808399;
     }
 
-    private static function feetToMeter($feets)
+    /**
+     * @param $feets
+     * @return float
+     */
+    private static function feetToMeter($feets): float
     {
         return $feets * 0.3048;
     }

@@ -42,6 +42,8 @@ abstract class AbstractDistance implements ValueObjectInterface
             $errorMsg = 'you are able to compare only to same distanceType as ' . $className . 'use Comparator instead';
             throw new \InvalidArgumentException($errorMsg);
         }
+
+        return $compare->getQuality() == $this->getQuality();
     }
 
     /**
