@@ -1,7 +1,7 @@
 {
   "name": "pcf/valueobject",
   "description": "todo",
-  "type": "metcomapackage",
+  "type": "metapackage",
   "license": "MIT",
   "authors": [
     {
