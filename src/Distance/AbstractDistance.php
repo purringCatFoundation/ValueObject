@@ -37,7 +37,7 @@ abstract class AbstractDistance implements ValueObjectInterface
 
     public function isEqualTo(ValueObjectInterface $compare): bool
     {
-        $className = get_called_class();
+        $className = static::class;
         if (false === $compare instanceof $className) {
             $errorMsg = 'you are able to compare only to same distanceType as ' . $className . 'use Comparator instead';
             throw new \InvalidArgumentException($errorMsg);

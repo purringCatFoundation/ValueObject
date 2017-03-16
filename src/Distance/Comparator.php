@@ -15,6 +15,7 @@ class Comparator
     public static function compare(AbstractDistance $left, AbstractDistance $right): bool
     {
         $tmpDistance = Converter::convert($right, get_class($left));
+        
         return $left->isEqualTo($tmpDistance);
     }
 }
