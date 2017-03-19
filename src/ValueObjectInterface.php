@@ -21,3 +21,4 @@ interface ValueObjectInterface
      */
     public function __toString(): string;
 }
+
