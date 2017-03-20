@@ -69,5 +69,4 @@ abstract class AbstractDistance implements ValueObjectInterface
     {
         return $this->unit;
     }
-
 }
