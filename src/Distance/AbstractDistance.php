@@ -51,7 +51,7 @@ abstract class AbstractDistance implements ValueObjectInterface
      */
     public function __toString(): string
     {
-        return $this->getQuality() . $this->getUnit();
+        return $this->getQuality() . ' ' . $this->getUnit();
     }
 
     /**
