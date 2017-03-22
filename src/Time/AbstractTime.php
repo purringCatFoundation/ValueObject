@@ -1,12 +1,12 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
-namespace PCF\ValueObject\Distance;
+namespace PCF\ValueObject\Time;
 
 use PCF\ValueObject\ValueObjectInterface;
 
-abstract class AbstractDistance implements ValueObjectInterface
+abstract class AbstractTime implements ValueObjectInterface
 {
     /**
      * power of object
@@ -23,7 +23,7 @@ abstract class AbstractDistance implements ValueObjectInterface
     protected $unit;
 
     /**
-     * AbstractDistance constructor.
+     * AbstractTime constructor.
      * @param float $quality
      */
     public function __construct($quality)
@@ -39,7 +39,7 @@ abstract class AbstractDistance implements ValueObjectInterface
     {
         $className = static::class;
         if (false === $compare instanceof $className) {
-            $errorMsg = 'you are able to compare only to same distanceType as ' . $className;
+            $errorMsg = 'you are able to compare only to same timeType as ' . $className;
             throw new \InvalidArgumentException($errorMsg);
         }
 
