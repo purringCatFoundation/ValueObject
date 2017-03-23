@@ -6,22 +6,22 @@ namespace PCF\ValueObject\Currency;
 
 use PCF\ValueObject\ValueObjectInterface;
 
-class AbstractCurrency implements ValueObjectInterface
+abstract class AbstractCurrency implements ValueObjectInterface
 {
     /**
      * @var string
      */
-    private $alphabeticCode;
+    protected $alphabeticCode;
 
     /**
      * @var int
      */
-    private $numericCode;
+    protected $numericCode;
 
     /**
      * @var float
      */
-    private $quality;
+    protected $quality;
 
     /**
      * AbstractCurrency constructor.
