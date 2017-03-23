@@ -14,6 +14,7 @@ We are not fear of criticism, our cats will cheer us up.
     - [Meter](src/Distance/Meter.php)
     - [NavyMile](src/Distance/NavyMile.php)
     - [Parsec](src/Distance/Parsec.php)
+ - [Currency](src/Currency) - to many to list them all
     
  
 
