@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace PCF\ValueObject\Currency;
 
-class UnidaddeValorReal extends AbstractCurrency
+class UnidadDeFomento extends AbstractCurrency
 {
 
     /**
@@ -15,7 +15,7 @@ class UnidaddeValorReal extends AbstractCurrency
     public function __construct($quality)
     {
         parent::__construct($quality);
-        $this->alphabeticCode = 'COU';
-        $this->numericCode = '970';
+        $this->alphabeticCode = 'CLF';
+        $this->numericCode = '990';
     }
 }
