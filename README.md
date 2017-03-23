@@ -9,6 +9,7 @@ We are not fear of criticism, our cats will cheer us up.
 
 ## Features
  - [Distance](src/Distance):
+    - [Chain](src/Distance/Chain.php)
     - [Foot](src/Distance/Foot.php)
     - [Meter](src/Distance/Meter.php)
     - [NavyMile](src/Distance/NavyMile.php)
