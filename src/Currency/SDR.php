@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class SDR extends AbstracCurrency
+class SDR extends AbstractCurrency
 {
 
     /**

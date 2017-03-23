@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class Riel extends AbstracCurrency
+class Riel extends AbstractCurrency
 {
 
     /**

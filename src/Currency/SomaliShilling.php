@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class SomaliShilling extends AbstracCurrency
+class SomaliShilling extends AbstractCurrency
 {
 
     /**

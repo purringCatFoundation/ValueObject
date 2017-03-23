@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class LiberianDollar extends AbstracCurrency
+class LiberianDollar extends AbstractCurrency
 {
 
     /**

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class Som extends AbstracCurrency
+class Som extends AbstractCurrency
 {
 
     /**

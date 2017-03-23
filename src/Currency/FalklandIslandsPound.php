@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class FalklandIslandsPound extends AbstracCurrency
+class FalklandIslandsPound extends AbstractCurrency
 {
 
     /**

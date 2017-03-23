@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class AustralianDollar extends AbstracCurrency
+class AustralianDollar extends AbstractCurrency
 {
 
     /**

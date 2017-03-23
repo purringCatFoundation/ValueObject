@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class ComoroFranc extends AbstracCurrency
+class ComoroFranc extends AbstractCurrency
 {
 
     /**

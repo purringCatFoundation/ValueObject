@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class DanishKrone extends AbstracCurrency
+class DanishKrone extends AbstractCurrency
 {
 
     /**

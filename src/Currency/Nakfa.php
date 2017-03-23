@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class Nakfa extends AbstracCurrency
+class Nakfa extends AbstractCurrency
 {
 
     /**

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class LibyanDinar extends AbstracCurrency
+class LibyanDinar extends AbstractCurrency
 {
 
     /**

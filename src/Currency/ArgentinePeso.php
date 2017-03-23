@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace PCF\ValueObjectCurrency;
+namespace PCF\ValueObject\Currency;
 
-class ArgentinePeso extends AbstracCurrency
+class ArgentinePeso extends AbstractCurrency
 {
 
     /**
