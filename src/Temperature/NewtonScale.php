@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PCF\ValueObject\Temperature;
 
-class NewtonScale extends AbstractTemperature
+class Newton extends AbstractTemperature
 {
     public const ABSOLUTE_ZERO = '-90.14';
 
