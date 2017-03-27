@@ -64,4 +64,44 @@ abstract class AbstractCurrency implements ValueObjectInterface
     {
         return $this->subUnitQuality . ' ' . static::SUBUNIT;
     }
+    
+    /**
+     * @return string
+     */
+    public function getSymbol()
+    {
+        return static::SYMBOL;
+    }
+    
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return static::FULL_NAME;
+    }
+    
+    /**
+     * @return string
+     */
+    public function getSubUnit()
+    {
+        return static::SUBUNIT;
+    }
+    
+    /**
+     * @return float
+     */
+    public function getQuality()
+    {
+        return $this->subUnitQuality / static::SUBUNIT_TO_UNIT;
+    }
+    
+    /**
+     * @return int
+     */
+    public function getSubQuality()
+    {
+        return $this->subUnitQuality;
+    }
 }
