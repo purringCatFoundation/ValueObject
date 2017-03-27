@@ -9,13 +9,13 @@ use PCF\ValueObject\ValueObjectInterface;
 abstract class AbstractCurrency implements ValueObjectInterface
 {
     
-    public const UNIT = '';
+    public const FULL_NAME = '';
     public const SUBUNIT = '';
     public const ISO_CODE = '';
-    public const ISO_NUM_CODE = null;
     public const SYMBOL = '';
     
     protected const SUBUNIT_TO_UNIT = 1;
+    protected const SYMBOL_FIRST = false;
     
     /**
      * @var integer
