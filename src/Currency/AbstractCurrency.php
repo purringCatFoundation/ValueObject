@@ -24,15 +24,15 @@ abstract class AbstractCurrency implements ValueObjectInterface
     
     /**
      * AbstractCurrency constructor.
-     * @param null $quality
-     * @param null $subUnitQuality
+     * @param float $quality
+     * @param int $subUnitQuality
      */
     public function __construct($quality = null, $subUnitQuality = null)
     {
         if (false === empty($subUnitQuality)) {
             $this->subUnitQuality = $subUnitQuality;
         } elseif (false === empty($quality)) {
-            $this->subUnitQuality = $quality * static::SUBUNIT_TO_UNIT;
+            $this->subUnitQuality = intval($quality * static::SUBUNIT_TO_UNIT);
         } else {
             throw new \InvalidArgumentException('quality or subunit quality required');
         }
