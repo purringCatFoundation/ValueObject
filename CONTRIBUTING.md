@@ -1,19 +1,19 @@
-#Contributing to Project
+# Contributing to Project
 Hi! :smiley_cat:    
 At first, thanks for reading this doc.    
 We inform that everyone who programs in PHP and loves cats(not only) can be a contributing member.    
 These file contains only guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.    
 **We require only all your code MUST follow psr standards and enabled strict_types (php>=7).**
 
-##Pull requests
+## Pull requests
 * Fork project and apply your changes
 * Create Pull Request to our repository
 * Include funny gif with cat in PR comm
 * Describe your changes in few sentences
 * Pat your cat and make him purrr :smirk_cat: 
 
-##Writing test
+## Writing test
 Cats love getting new tests, so we love them to!! Remember improving code coverage make your cat happy.
 
-##Writing documentation
+## Writing documentation
 Remember to add phpdoc to your code. We respect [phpDocumentator guides](https://www.phpdoc.org/docs/latest/glossary.html)
