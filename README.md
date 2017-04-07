@@ -29,6 +29,4 @@ We do not fear criticism, our cats will cheer us up.
 
 ## Contributing
 
-Firstly, thanks for reading this [Contribution guide](CONTRIBUTING.md).
-Everyone who programs in PHP and loves cats (and not only cats) can be a contributing member.
-This file contains only guidelines, not actual rules. Use your best judgment, and feel free to suggest changes to this document in a pull request.
+If you wish to contribute, please read first our [Contribution guide](CONTRIBUTING.md).
