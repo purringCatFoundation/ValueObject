@@ -3,10 +3,10 @@
 ![](https://media.giphy.com/media/fAT2Db0j0Mblu/giphy.gif)
 
 
-## Reason to create
+## Purpose of the repository
 
-Repository made mostly in education purpose. So feel free to comment and criticise.
-We are not fear of criticism, our cats will cheer us up.
+This repository was created mostly for educational purposes, so feel free to comment and criticize.
+We do not fear criticism, our cats will cheer us up.
 
 ## Features
  - [Distance](src/Distance):
@@ -29,4 +29,6 @@ We are not fear of criticism, our cats will cheer us up.
 
 ## Contributing
 
-If you wish to contribute, please read first our [Contribution guide](CONTRIBUTING.md)
+Firstly, thanks for reading this [Contribution guide](CONTRIBUTING.md).
+Everyone who programs in PHP and loves cats (and not only cats) can be a contributing member.
+This file contains only guidelines, not actual rules. Use your best judgment, and feel free to suggest changes to this document in a pull request.
