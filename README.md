@@ -1,7 +1,7 @@
-# Value Object ![](https://travis-ci.org/purringCatFoundation/ValueObject.svg?branch=master)
+# Value Object ![](https://travis-ci.org/purringCatFoundation/ValueObject.svg?branch=master) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/2a6dda28-2a77-4e04-8d55-efee3b5c448e/mini.png)](https://insight.sensiolabs.com/projects/2a6dda28-2a77-4e04-8d55-efee3b5c448e)
 
 ![](https://media.giphy.com/media/fAT2Db0j0Mblu/giphy.gif)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/2a6dda28-2a77-4e04-8d55-efee3b5c448e/mini.png)](https://insight.sensiolabs.com/projects/2a6dda28-2a77-4e04-8d55-efee3b5c448e)
+
 
 ## Reason to create
 
