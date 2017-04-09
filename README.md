@@ -15,6 +15,12 @@ We do not fear criticism, our cats will cheer us up.
     - [Meter](src/Distance/Meter.php)
     - [NavyMile](src/Distance/NavyMile.php)
     - [Parsec](src/Distance/Parsec.php)
+ - [Mass](src/Mass)
+    - [Gram](src/Mass/Gram.php)
+    - [Planck](src/Mass/Planck.php)
+    - [Pound](src/Mass/Pound.php)
+    - [Slug](src/Mass/Slug.php)
+    - [Solar](src/Mass/Solar.php)
  - [Time](src/Time):
     - [Hour](src/Time/Hour.php)
     - [Ke](src/Time/Ke.php)
