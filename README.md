@@ -15,6 +15,7 @@ We do not fear criticism, our cats will cheer us up.
     - [Meter](src/Distance/Meter.php)
     - [NavyMile](src/Distance/NavyMile.php)
     - [Parsec](src/Distance/Parsec.php)
+ - [Currency](src/Currency) - to many to list them all
  - [Time](src/Time):
     - [Hour](src/Time/Hour.php)
     - [Ke](src/Time/Ke.php)
@@ -23,7 +24,7 @@ We do not fear criticism, our cats will cheer us up.
     - [Svedberg](src/Time/Svedberg.php)
  - [Speed](src/Speed/Speed.php)
     - possible every combination of [Distance](src/Distance) and [Time](src/Time) units  
-    
+
     
  
 
