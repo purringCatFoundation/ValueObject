@@ -29,4 +29,4 @@ We do not fear criticism, our cats will cheer us up.
 
 ## Contributing
 
-If you wish to contribute, please read first our [Contribution guide](CONTRIBUTING.md).
+If you wish to contribute, please read first our [Contribution guide](CONTRIBUTING.md)
